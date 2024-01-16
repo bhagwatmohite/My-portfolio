@@ -94,7 +94,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://github.com/bhagwatmohite"
+                href="https://bhagwatmohite.hashnode.dev/"
                 target="_blank"
                 rel="noreferrer"
               >
