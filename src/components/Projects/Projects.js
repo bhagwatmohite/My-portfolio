@@ -1,13 +1,13 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import ProjectCard from "./ProjectCards";
-import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+import { Col, Container, Row } from "react-bootstrap";
+import Home from "../../Assets/Projects/Home.png";
+import Weather from "../../Assets/Projects/Weatherr.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import Lab from "../../Assets/Projects/library.png";
+import Spring from "../../Assets/Projects/spring.png";
+import Ticket from "../../Assets/Projects/ticket.png";
+import Particle from "../Particle";
+import ProjectCard from "./ProjectCards";
 
 function Projects() {
   return (
@@ -23,16 +23,45 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Home}
               isBlog={false}
               title="House Rental Website"
-              description=" This is House Rental Website which provide a intermediate platform
-              to house owner and other customers who wanted to be stay in that
-              area.
-              • Integrated full-fledged User authentication and Firestore database to
-              store user data on Firebase cloud"
+              description="This is a house rental website that provides an intermediate platform for house owners and potential tenants looking to stay in a specific area. It features integrated full-fledged user authentication and utilizes Firestore database to store user data on the Firebase Cloud."
               ghLink="https://github.com/bhagwatmohite/"
-              // demoLink="https://chatify-49.web.app/"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Ticket}
+              isBlog={false}
+              title="Ticket System"
+              description="I developed a ticket system website using the MERN full-stack. In this project, I created two dashboards—one for the admin and another for the user. The user's activity involves creating a ticket, and the system logs all actions associated with it."
+              ghLink="https://github.com/bhagwatmohite/-Ticket"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Spring}
+              isBlog={false}
+              title="CRUD-Operation(React + SpringBoot)"
+              description="I developed an employee management website enabling employees to perform CRUD operations. The project involved implementing a MySQL database to store employee management data. Additionally, RESTful APIs were developed using the Spring Boot framework to execute CRUD operations on the MySQL and Hibernate database. The technologies utilized include HTML, CSS, JavaScript, React.js, Bootstrap, Spring Boot, Hibernate, MySQL, and RESTful API."
+              ghLink="https://github.com/bhagwatmohite/fullstack_2"
+
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Weather}
+              isBlog={false}
+              title="Weather App"
+              description="This app is developed using HTML, CSS, JavaScript, and ReactJs. OpenWeatherAPI is utilized for fetching live weather data, including minimum and maximum temperatures. The app supports two temperature units: Celsius and Fahrenheit. It features an attractive design for the 5-day forecast, displaying dates and weather descriptions."
+              ghLink="https://github.com/bhagwatmohite/WeatherApp"
+
             />
           </Col>
 
@@ -41,22 +70,25 @@ function Projects() {
               imgPath={bitsOfCode}
               isBlog={false}
               title="Stress-detection-using-ML"
-              description=" This is Stress Detection using ML which provide a detection of stress in organization employee .Using tools during the project implement using python,Num-py,Pandas and Jupyter Notebook(Anaconda)."
+              description="This is a Stress Detection using Machine Learning system designed to identify stress levels in organization employees. The project is implemented using Python, NumPy, Pandas, and Jupyter Notebook (Anaconda) as the primary tools."
               ghLink="https://github.com/bhagwatmohite"
-              //demoLink="https://blogs.soumya-jit.tech/"
+
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Lab}
               isBlog={false}
               title="Library management System"
-              description="This is Library Management System which enables differet action by admin of library such as lend book,submit book,charges or due. Implement a variable data structure and algorithmic implementation such as stack , queue , hashMap , and Linkedlist"
+              description="This is a Library Management System that facilitates various actions by the library administrator, including lending books, accepting book returns, managing charges or dues. The implementation incorporates variable data structures and algorithmic implementations such as stack, queue, hashMap, and linked list."
               ghLink="https://github.com/bhagwatmohite/"
-             // demoLink="https://plant49-ai.herokuapp.com/"
+
             />
           </Col>
+
+
+
 
         </Row>
       </Container>

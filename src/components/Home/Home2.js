@@ -22,9 +22,9 @@ function Home2() {
               I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am fluent in technology like
               <i>
-                <b className="purple">C, C++, Javascript and Python. </b>
+                <b className="purple"> Html,Css, JavaScript,React,Node,Express,C, Java, JDBC,SpringBoot </b>
               </i>
               <br />
               <br />
