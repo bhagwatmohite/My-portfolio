@@ -8,7 +8,7 @@ import pdf from "../../Assets/mb_resume.pdf";
 import Particle from "../Particle";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumeLink = "https://drive.google.com/file/d/1xiy-suUx1Ki7M_5MRZK_4gmMv83t4U9T/view";
+const resumeLink = "https://drive.google.com/file/d/1F1bFpDEaxL535JXBNxlzye1VY1PDjd49/view?usp=drivesdk";
 // "https://raw.githubusercontent.com/soumyajit4419/portfolio/master/src/Assets/Soumyajit_Behera-BIT_MESRA.pdf";
 
 function ResumeNew() {

@@ -1,13 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
+import { Col, Container, Row } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/avatar.svg";
 
 function Home2() {
   return (
@@ -24,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in technology like
               <i>
-                <b className="purple"> Html,Css, JavaScript,React,Node,Express,C, Java, JDBC,SpringBoot </b>
+                <b className="purple"> Html,Css, JavaScript,React,Node, Java,Spring,SpringBoot,Hibernate, MySQL And AWS </b>
               </i>
               <br />
               <br />
@@ -33,13 +32,13 @@ function Home2() {
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
+                  Deep Learning, Promt and AI.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b className="purple">Java, SpringBoot</b> and Mysql with Frontend
               <i>
                 <b className="purple">
                   {" "}
@@ -48,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b className="purple"> React.js, React-Redux and Next.js</b>
               </i>
             </p>
           </Col>

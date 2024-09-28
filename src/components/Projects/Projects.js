@@ -21,6 +21,17 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Home}
+              isBlog={false}
+              title="E-commerce Domain Project"
+              description="This project is a full-stack e-commerce website developed using the MERN stack. The website features a user-friendly interface, integrated user authentication, contact with shortly that product related enquiry on mail. The project also includes a dashboard for the admin to manage products, orders, and users. The technologies utilized include JavaScript, React.js, Redux, Java, Spring, SpringBoot and Restful API And deploy on AWS EC2 "
+              ghLink="https://shreemangalmurti.in/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Home}
@@ -86,9 +97,6 @@ function Projects() {
 
             />
           </Col>
-
-
-
 
         </Row>
       </Container>
